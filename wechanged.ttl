@@ -1,0 +1,1269 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+wd:Q55875664 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00031_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1818-03-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-06-04T00:00:00Z"^^xsd:dateTime , "1884-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4245675 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00108_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-12-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1889-09-23T00:00:00Z"^^xsd:dateTime .
+
+wd:Q55875664 wdt:P569 "1818-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18922230 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00167_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1831-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q5722165 ;
+	wdt:P40 wd:Q75721857 .
+
+wd:Q1382113 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00153_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1809-06-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1873-10-04T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q4722713 ;
+	wdt:P22 wd:Q4719246 ;
+	wdt:P40 wd:Q2645894 , wd:Q6307756 , wd:Q29050614 , wd:Q56434945 , wd:Q64748659 , wd:Q88466575 .
+
+wd:Q562000 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00168_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1800-01-06T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-01-30T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q2218070 .
+
+wd:Q18922230 wdt:P570 "1898-11-03T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6307756 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00136_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1841-08-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1885-05-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q2645894 ;
+	wdt:P26 wd:Q24287353 ;
+	wdt:P22 wd:Q4722713 ;
+	wdt:P25 wd:Q1382113 .
+
+wd:Q88466545 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00118_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1826-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-02-23T00:00:00Z"^^xsd:dateTime .
+
+wd:Q131333 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00135_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-11-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1880-12-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P451 wd:Q1275943 .
+
+wd:Q88466524 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00095_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1839-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15983869 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00128_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1842-01-05T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1879-11-14T00:00:00Z"^^xsd:dateTime ;
+	wdt:P22 wd:Q7061496 ;
+	wdt:P25 wd:Q75502484 .
+
+wd:Q88466563 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00140_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1843-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4222976 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00102_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1809-06-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q16059897 ;
+	wdt:P26 wd:Q5076512 ;
+	wdt:P22 wd:Q2526705 .
+
+wd:Q6307756 wdt:P3373 wd:Q88466575 .
+
+wd:Q88466584 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00163_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1927-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1857-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88466568 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00144_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1808-08-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1849-01-23T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15983869 wdt:P570 "1879-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88466946 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00188_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1862-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q88466944 , wd:Q88466949 .
+
+wd:Q4245675 wdt:P569 "1818-12-24T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88466554 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00130_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1833-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1879-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4947472 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00137_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1835-05-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-05-31T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4222976 wdt:P3373 wd:Q4322567 .
+
+wd:Q15983869 wdt:P569 "1842-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15428883 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00181_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-07-03T00:00:00Z"^^xsd:dateTime , "1897-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88467585 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00444_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1835-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88467291 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00382_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1816-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1879-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2392552 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00007_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1808-12-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-12-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q607181 .
+
+wd:Q88466448 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00046_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1841-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1872-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q514667 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00221_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1807-08-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1858-07-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q1346111 .
+
+wd:Q287665 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00062_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1836-03-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1865-02-06T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q1484037 .
+
+wd:Q75205528 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00305_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1829-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-12-26T00:00:00Z"^^xsd:dateTime .
+
+wd:Q16202224 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00001_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-06-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-02-16T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88466452 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00050_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1801-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1864-03-09T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18526489 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00264_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1809-09-17T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-06-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6698488 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00051_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1841-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1892-05-04T00:00:00Z"^^xsd:dateTime ;
+	wdt:P22 wd:Q76285163 ;
+	wdt:P25 wd:Q76285162 ;
+	wdt:P40 wd:Q76320158 .
+
+wd:Q18526489 wdt:P570 "1891-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q276466 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00060_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1827-02-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-07-18T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88466483 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00085_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1830-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q7367816 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00204_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1860-06-23T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-02-26T00:00:00Z"^^xsd:dateTime , "1891-02-16T00:00:00Z"^^xsd:dateTime .
+
+wd:Q19325200 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00069_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1840-08-23T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1889-09-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18526489 wdt:P569 "1809-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q7367816 wdt:P569 "1859-06-24T00:00:00Z"^^xsd:dateTime .
+
+wd:Q63107330 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01684_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1833-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q850141 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00269_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1808-03-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1877-06-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q5701894 ;
+	wdt:P26 wd:Q26262876 ;
+	wdt:P22 wd:Q18015060 ;
+	wdt:P25 wd:Q18721967 ;
+	wdt:P40 wd:Q45352564 , wd:Q75351560 .
+
+wd:Q88467233 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00287_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q850141 wdt:P3373 wd:Q5548110 ;
+	wdt:P26 wd:Q334215 .
+
+wd:Q53996614 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00282_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1847-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1851-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P22 wd:Q18757266 .
+
+wd:Q1760518 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00213_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1802-08-14T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1838-10-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q5542034 .
+
+wd:Q64685853 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00275_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1822-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1885-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5372034 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00322_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-11-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-03-20T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q6761221 .
+
+wd:Q18576255 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00284_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-03-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-02-12T00:00:00Z"^^xsd:dateTime , "1891-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1812-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18528531 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00315_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1803-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1852-01-11T00:00:00Z"^^xsd:dateTime , "1852-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88467002 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00219_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1824-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1338076 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00286_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1848-04-05T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-12-01T00:00:00Z"^^xsd:dateTime , "1886-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q53996614 wdt:P569 "1850-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88467235 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00296_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-05-04T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1862-02-19T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4766538 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01810_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1813-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-06-20T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18546441 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00700_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1800-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1888-06-14T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q455349 , wd:Q1124282 , wd:Q1396169 , wd:Q18528043 , wd:Q18528633 .
+
+wd:Q88468272 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00565_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1844-03-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-07-15T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18546441 wdt:P569 "1800-04-18T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1888-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q16060024 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00708_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1822-02-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-03-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q1922657 , wd:Q5342605 .
+
+wd:Q88468422 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00652_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1818-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1882-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q16060024 wdt:P570 "1894-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18608516 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00701_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1815-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1867-07-01T00:00:00Z"^^xsd:dateTime , "1867-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q16060024 wdt:P569 "1822-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q446879 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00641_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-09-16T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-04-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q1697296 .
+
+wd:Q442928 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00407_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-08-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1876-03-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P451 wd:Q179680 ;
+	wdt:P570 "1876-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3140849 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00486_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1836-06-29T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-08-13T00:00:00Z"^^xsd:dateTime , "1884-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5372860 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00378_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1825-04-20T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-08-25T00:00:00Z"^^xsd:dateTime .
+
+wd:Q25720314 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00457_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1806-03-18T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-02-07T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q19544661 .
+
+wd:Q427566 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00442_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1832-03-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-01-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1832-03-12T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15621497 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00447_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1846-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P40 wd:Q18204482 .
+
+wd:Q5373427 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00379_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1806-05-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1855-10-29T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q13529986 ;
+	wdt:P26 wd:Q5082738 ;
+	wdt:P22 wd:Q3809455 ;
+	wdt:P25 wd:Q45597252 ;
+	wdt:P40 wd:Q468736 , wd:Q4786530 .
+
+wd:Q2607147 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00417_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1805-12-31T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-04-02T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5373427 wdt:P40 wd:Q76269704 .
+
+wd:Q40083037 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00454_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1803-01-07T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-11-06T00:00:00Z"^^xsd:dateTime ;
+	wdt:P22 wd:Q3310693 .
+
+wd:Q5373427 wdt:P570 "1855-10-30T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3045216 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00510_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-04-04T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5373427 wdt:P3373 wd:Q3666446 .
+
+wd:Q23646867 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00402_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1801-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2991068 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00410_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1804-08-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1872-09-11T00:00:00Z"^^xsd:dateTime , "1872-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q442928 wdt:P569 "1810-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q40083037 wdt:P569 "1802-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2991068 wdt:P569 "1804-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q442928 wdt:P451 wd:Q43444 .
+
+wd:Q22970061 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00423_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1802-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1864-01-30T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5373427 wdt:P3373 wd:Q2086683 .
+
+wd:Q2493772 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00376_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-01-17T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-02-10T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3506061 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00467_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1801-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1877-01-01T00:00:00Z"^^xsd:dateTime , "1876-10-24T00:00:00Z"^^xsd:dateTime .
+
+wd:Q23646867 wdt:P570 "1822-08-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15621497 wdt:P569 "1846-05-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q975314 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00439_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1837-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18416349 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00758_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1835-12-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-11-20T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q33206984 ;
+	wdt:P569 "1835-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q21552491 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00726_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1815-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1875-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q88471997 .
+
+wd:Q88469565 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01121_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1812-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1862-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q54556162 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00872_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1805-10-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1883-10-06T00:00:00Z"^^xsd:dateTime , "1883-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1805-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18115130 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00754_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q450563 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00882_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1808-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1871-07-05T00:00:00Z"^^xsd:dateTime , "1871-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3840430 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00890_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-02-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1872-07-01T00:00:00Z"^^xsd:dateTime , "1872-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5856765 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00755_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1834-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-03-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P40 wd:Q17462624 .
+
+wd:Q3840430 wdt:P569 "1810-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5856765 wdt:P570 "1895-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1465296 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00739_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1848-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1889-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q1465294 .
+
+wd:Q5856765 wdt:P569 "1834-02-15T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4949278 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00741_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1859-12-11T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6779412 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00742_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1857-05-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1892-04-08T00:00:00Z"^^xsd:dateTime .
+
+wd:Q71507 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00749_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-03-26T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-03-13T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4949278 wdt:P569 "1836-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q67888 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00774_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-11-26T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1871-12-21T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6761550 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00832_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-02-26T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q2092785 ;
+	wdt:P570 "1893-02-25T00:00:00Z"^^xsd:dateTime .
+
+wd:Q90720 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00814_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1817-04-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-11-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q215814 .
+
+wd:Q6761550 wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1819-09-14T00:00:00Z"^^xsd:dateTime .
+
+wd:Q450563 wdt:P569 "1808-06-28T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1592528 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00803_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1807-09-07T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1884-07-11T00:00:00Z"^^xsd:dateTime .
+
+wd:Q165824 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00770_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-06-08T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1858-11-15T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q68325 ;
+	wdt:P40 wd:Q15433266 ;
+	wdt:P569 "1810-07-08T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1465296 wdt:P570 "1889-10-14T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88469876 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00929_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1896-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88469855 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00934_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1833-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6110207 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00850_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1821-08-20T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-06-17T00:00:00Z"^^xsd:dateTime , "1890-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q54853349 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01021_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1803-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-01-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q42529458 ;
+	wdt:P22 wd:Q353907 ;
+	wdt:P25 wd:Q272690 .
+
+wd:Q88469769 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01129_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1844-03-10T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1892-10-26T00:00:00Z"^^xsd:dateTime .
+
+wd:Q6110207 wdt:P569 "1821-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1255008 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00950_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1844-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-10-22T00:00:00Z"^^xsd:dateTime , "1898-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5834031 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00905_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1829-08-18T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-05-05T00:00:00Z"^^xsd:dateTime .
+
+wd:Q283353 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00838_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-12-11T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1873-02-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P451 wd:Q5665584 , wd:Q5913628 ;
+	wdt:P569 "1814-03-23T00:00:00Z"^^xsd:dateTime .
+
+wd:Q54853349 wdt:P569 "1803-07-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5650072 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00836_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1823-08-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1883-09-17T00:00:00Z"^^xsd:dateTime , "1883-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q23009109 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00927_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1829-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1888-07-02T00:00:00Z"^^xsd:dateTime , "1888-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q671852 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00851_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-31T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-02-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q69311 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01045_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1817-02-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1877-07-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P40 wd:Q51708155 , wd:Q88470063 , wd:Q89493435 .
+
+wd:Q2653682 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01020_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1806-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1870-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q19125906 .
+
+wd:Q5650072 wdt:P569 "1826-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3984280 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00990_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1255008 wdt:P569 "1844-11-26T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470083 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01056_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1885-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470095 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01142_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1825-06-10T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-11-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88469953 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01135_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1862-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4970956 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00977_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1823-12-09T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q6024997 ;
+	wdt:P40 wd:Q16946372 , wd:Q19618834 .
+
+wd:Q78873 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01216_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1845-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1870-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4970956 wdt:P570 "1898-06-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4346827 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00978_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1823-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-06-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q5542875 .
+
+wd:Q78873 wdt:P570 "1858-10-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4346827 wdt:P570 "1895-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4231221 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01063_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1838-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4346625 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01069_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-07-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1889-03-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1810-07-18T00:00:00Z"^^xsd:dateTime .
+
+wd:Q465687 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01171_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1807-09-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1879-05-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q215339 ;
+	wdt:P22 wd:Q73763089 ;
+	wdt:P40 wd:Q1398812 , wd:Q5495496 , wd:Q11860039 , wd:Q11876241 ;
+	wdt:P569 "1807-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88469866 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01018_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1856-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4346827 wdt:P569 "1823-07-06T00:00:00Z"^^xsd:dateTime .
+
+wd:Q445095 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01093_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1859-01-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q30875 ;
+	wdt:P40 wd:Q713325 , wd:Q3009019 .
+
+wd:Q248977 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01187_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-08-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-04-11T00:00:00Z"^^xsd:dateTime .
+
+wd:Q445095 wdt:P570 "1898-04-07T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4205606 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01143_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1805-01-06T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-06-16T00:00:00Z"^^xsd:dateTime , "1881-06-04T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1804-12-25T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1256002 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00972_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1815-12-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-05-02T00:00:00Z"^^xsd:dateTime .
+
+wd:Q445095 wdt:P569 "1858-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q465687 wdt:P570 "1879-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18916818 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01001_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1817-10-11T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-06-14T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q125261 .
+
+wd:Q189454 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01219_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1831-08-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1891-05-08T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q3442373 ;
+	wdt:P25 wd:Q1807087 .
+
+wd:Q248977 wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q1542697 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01081_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1806-03-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1875-06-26T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4970956 wdt:P569 "1823-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2416593 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01048_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-06-28T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-04-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q113827 ;
+	wdt:P570 "1897-04-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470958 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01199_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470879 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01162_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1877-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1821-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q67665765 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01147_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1827-04-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1881-03-11T00:00:00Z"^^xsd:dateTime ;
+	wdt:P22 wd:Q22918825 ;
+	wdt:P570 "1881-02-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470947 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01194_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1821-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q81310062 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01209_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1818-01-31T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1818-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q67665765 wdt:P569 "1827-04-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470830 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01152_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1889-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q81499707 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01196_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1870-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470954 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01197_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88470949 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01195_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q5931650 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01105_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1837-02-17T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-02-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1837-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4172868 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01155_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1815-08-24T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1892-04-08T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q2640236 ;
+	wdt:P26 wd:Q21680708 ;
+	wdt:P40 wd:Q4405799 .
+
+wd:Q55227709 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01186_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1827-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3638910 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01112_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-03-05T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-09T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4172868 wdt:P570 "1892-03-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q19060682 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01146_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1815-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1872-06-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q241252 ;
+	wdt:P22 wd:Q15071425 .
+
+wd:Q4275418 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01075_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1834-01-18T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-08-22T00:00:00Z"^^xsd:dateTime , "1887-08-10T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2269891 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01166_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1830-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1895-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q6143227 ;
+	wdt:P22 wd:Q75532688 .
+
+wd:Q4275418 wdt:P569 "1834-01-06T00:00:00Z"^^xsd:dateTime .
+
+wd:Q298027 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01289_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1844-03-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-05-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q16168228 .
+
+wd:Q4448186 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01074_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1829-10-20T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-12-16T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15686387 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01145_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1818-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1883-03-18T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q15993278 ;
+	wdt:P570 "1883-03-06T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4172868 wdt:P3373 wd:Q4447156 .
+
+wd:Q6761272 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01169_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1825-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-08-26T00:00:00Z"^^xsd:dateTime , "1897-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q4107897 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01193_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1831-12-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1860-10-24T00:00:00Z"^^xsd:dateTime , "1860-10-12T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88471261 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01314_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1831-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-01-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q2825426 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01370_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-12-12T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q2839811 .
+
+wd:Q18526719 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01313_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1818-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q18757244 .
+
+wd:Q90885 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01337_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1821-02-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1880-03-25T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q98643 ;
+	wdt:P22 wd:Q1173597 .
+
+wd:Q23040700 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01305_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1856-12-22T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1896-10-07T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18730054 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01273_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1873-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q33507955 .
+
+wd:Q272303 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01348_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1821-12-27T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1896-02-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q2540254 ;
+	wdt:P40 wd:Q1606342 .
+
+wd:Q2825426 wdt:P569 "1819-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1886-12-22T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3057243 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01373_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1853-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q922427 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01372_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1835-12-19T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1898-07-23T00:00:00Z"^^xsd:dateTime .
+
+wd:Q23040700 wdt:P569 "1864-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q3057243 wdt:P569 "1852-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q272303 wdt:P40 wd:Q30875 .
+
+wd:Q18783843 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01349_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1817-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1883-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q16210390 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00318_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1842-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88471944 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01369_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1801-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1869-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88471311 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01329_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1813-08-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1877-02-12T00:00:00Z"^^xsd:dateTime .
+
+wd:Q20031776 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01451_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1832-01-03T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1885-03-05T00:00:00Z"^^xsd:dateTime ;
+	wdt:P569 "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1885-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q20031755 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01460_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1809-06-30T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1897-09-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18733000 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01399_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1811-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1876-03-11T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q376090 ;
+	wdt:P40 wd:Q17353566 , wd:Q19559812 .
+
+wd:Q18012235 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01367_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1822-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q20031755 wdt:P570 "1867-09-04T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88471943 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01368_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1817-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1865-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q18733000 wdt:P569 "1812-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88471938 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01366_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1810-02-23T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1890-11-27T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88472081 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01424_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1950-10-26T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1863-09-17T00:00:00Z"^^xsd:dateTime .
+
+wd:Q870744 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01527_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1830-01-23T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1896-02-29T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q1251977 .
+
+wd:Q88472262 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01493_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1838-04-28T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1893-12-06T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88472165 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01452_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1837-05-29T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1887-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q61198026 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00752_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1833-09-13T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1894-02-07T00:00:00Z"^^xsd:dateTime .
+
+wd:Q15699735 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00833_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1838-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1888-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q1346244 .
+
+wd:Q76117 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00971_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1814-01-02T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1873-09-26T00:00:00Z"^^xsd:dateTime ;
+	wdt:P3373 wd:Q21545725 .
+
+wd:Q55188201 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01569_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1882-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q63435514 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_01570_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1822-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1878-01-01T00:00:00Z"^^xsd:dateTime .
+
+wd:Q88473974 wdt:P106 wd:Q1607826 ;
+	wdt:P7947 "wcd_00932_id" ;
+	wdt:P21 wd:Q6581072 ;
+	wdt:P569 "1820-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P570 "1876-01-01T00:00:00Z"^^xsd:dateTime ;
+	wdt:P26 wd:Q956459 .
